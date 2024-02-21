@@ -8,4 +8,4 @@ In this repository, you'll find a collection of 30 JavaScript projects, each foc
 
 ## Project List 📋
 
-- [Pomodoro App 🍅](./pomodoro-app)
+- [Pomodoro App 🍅](../../tree/pomodoro-app)
