@@ -123,9 +123,7 @@ const affectCoseSection = function (basePrice, increaseDecreaseFlag, item) {
   costSection[1].textContent = `$${taxValue < 10 ? 0 : ""}${taxValue}${
     taxValue <= 0 ? ".00" : ""
   }`;
-  costSection[2].textContent = `$${totalValue < 10 ? 0 : ""}${totalValue}${
-    totalValue <= 0 ? ".00" : ""
-  }`;
+  costSection[2].textContent = `$${totalValue < 10 ? 0 : ""}${totalValue}${totalValue <= 0 ? '.00' : ''}`;
 };
 const backFromCart = function (item) {
   for (let i = 0; i < addToCartBtn.length; i++) {
@@ -133,7 +131,6 @@ const backFromCart = function (item) {
       addToCartBtn[i].closest(".content").firstElementChild.textContent;
     if (btnParentFistChild === item["name"]) {
       addToCartBtn[i].classList.remove("in-cart");
-      addToCartBtn[i].textContent = "Add to Cart";
       addToCartBtn[i].removeChild(addToCartBtn[i].firstElementChild);
     }
   }
