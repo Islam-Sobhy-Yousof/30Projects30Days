@@ -132,6 +132,7 @@ const backFromCart = function (item) {
     if (btnParentFistChild === item["name"]) {
       addToCartBtn[i].classList.remove("in-cart");
       addToCartBtn[i].removeChild(addToCartBtn[i].firstElementChild);
+      addToCartBtn[i].textContent = 'Add to Cart';
     }
   }
 };
