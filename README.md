@@ -9,3 +9,5 @@ In this repository, you'll find a collection of 30 JavaScript projects, each foc
 ## Project List 📋
 
 - [Pomodoro App 🍅](../../tree/pomodoro-app)
+- [eCommerce Component 🛒](../../tree/eCommerce-Component)
+- [eyes On The Screen 👀💻](../../tree/eyesOnTheScreen)
